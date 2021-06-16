@@ -1,5 +1,10 @@
+import org.junit.Before;
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.List;
+
+import static org.junit.Assert.*;
 
 public class Cohort {
     private List<Student> students;
@@ -23,6 +28,9 @@ public class Cohort {
     public List<Student> getStudents() {
         return students;
     }
+
+
+
 public static void main(String[] args) {
    Cohort next = new Cohort();
 
